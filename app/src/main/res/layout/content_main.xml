@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/main_title"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/main_studentNameEdit"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/main_student_name" />
+
+    <Spinner
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_spinner"
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_addStudentButton"
+        android:text="@string/main_addStudent"
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_deleteEngButton"
+        android:text="@string/main_deleteEngStudents"
+        />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_deleteAllButton"
+        android:text="@string/main_deleteAllStudents"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_listView"
+        />
+
+
+</LinearLayout>
